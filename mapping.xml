@@ -16,13 +16,13 @@
                 <concept>http://hdl.handle.net/11459/CCR_C-5127_f2721b23-921c-46ba-8d4d-88b46aef6976</concept>
                 <concept>http://www.isocat.org/datcat/DC-4160</concept>
                 <concept>http://hdl.handle.net/11459/CCR_C-4160_192be757-0d8f-f4fe-b10b-d3d50de92482</concept>
-                <concept>http://www.isocat.org/rest/dc/4160</concept> 
+                <concept>http://www.isocat.org/rest/dc/4160</concept>
                 <concept>http://www.isocat.org/datcat/DC-4114</concept>
                 <concept>http://hdl.handle.net/11459/CCR_C-4114_747bf046-1208-940d-36ba-297e4de49e0c</concept>
                 <concept>http://www.isocat.org/datcat/DC-2545</concept>
                 <concept>http://hdl.handle.net/11459/CCR_C-2545_d873f2ab-2a2f-29d6-a9ab-260cde57f227</concept>
                 <concept>http://www.isocat.org/datcat/DC-2544</concept>
-                <concept>http://hdl.handle.net/11459/CCR_C-2544_3626545e-a21d-058c-ebfd-241c0464e7e5</concept>        
+                <concept>http://hdl.handle.net/11459/CCR_C-2544_3626545e-a21d-058c-ebfd-241c0464e7e5</concept>
                 <concept>http://purl.org/dc/terms/title</concept>
                 <concept>http://purl.org/dc/elements/1.1/title</concept>
                 <concept>http://www.isocat.org/datcat/DC-6119</concept>
@@ -30,7 +30,7 @@
                 <concept>http://www.loc.gov/standards/mods/userguide/titleinfo.html#title</concept>
                 <concept>http://hdl.handle.net/11459/CCR_C-5129_3243b897-d5b0-f5b0-a446-2e5de627b1e4</concept>
                 <concept>http://hdl.handle.net/11459/CCR_C-5130_ea7bb8be-cb01-383d-fd94-0d72168411d2</concept>
-                
+
                 <pattern>/*:CMD/*:Components[1]/*/*:GeneralInfo[1]/*:ResourceName[1]</pattern>
                 <pattern>/*:CMD/*:Components[1]/*[not(local-name()='lat-corpus' or local-name()='VALID' or
                     local-name()='MPI_Bundle')]/*/*:Name</pattern>
@@ -41,8 +41,8 @@
 
                 <pattern>/*:CMD/*:Components/*:OLAC-DcmiTerms/*:title</pattern>
                 <pattern>/*:CMD/*:Components/*:OLAC-DcmiTerms-ref/*:title</pattern>
-                
-                
+
+
                 <blacklistProfile>clarin.eu:cr1:p_1527668176124</blacklistProfile>
                 <blacklistProfile>clarin.eu:cr1:p_1290431694579</blacklistProfile>
                 <blacklistProfile>clarin.eu:cr1:p_1548239945774</blacklistProfile>
@@ -81,7 +81,7 @@
             </includedInDataCatalog>
             <accessMode>
                 <concept>http://www.isocat.org/datcat/DC-2490</concept>
-                <concept>http://hdl.handle.net/11459/CCR_C-2490_44bc38a3-1799-4149-c791-40ac0176f0ff</concept>              
+                <concept>http://hdl.handle.net/11459/CCR_C-2490_44bc38a3-1799-4149-c791-40ac0176f0ff</concept>
             </accessMode>
             <dateModified>
                 <pattern>/*:CMD/*:Components/*/*:GeneralInfo/*:LastUpdate</pattern>
@@ -155,8 +155,8 @@
                 <concept>http://hdl.handle.net/11459/CCR_C-3800_12a79edd-0ffe-8d82-9831-45d125c54aee</concept>>
                 <concept>http://www.isocat.org/datcat/DC-6846</concept>
                 <concept>http://hdl.handle.net/11459/CCR_C-6846_d6adb99c-15ac-fac7-7911-f64c48298ce3</concept>
-                <concept>http://purl.org/dc/terms/accessRights</concept>       
-                <concept>http://purl.org/dc/terms/rights</concept>                         
+                <concept>http://purl.org/dc/terms/accessRights</concept>
+                <concept>http://purl.org/dc/terms/rights</concept>
             </conditionsOfAccess>
             <license type="CreativeWork">
                 <name>
@@ -171,7 +171,7 @@
                     <concept>http://purl.org/dc/terms/license</concept>
                     <concept>http://purl.org/dc/terms/rights</concept>
                 </name>
-            </license>          
+            </license>
             <temporalCoverage>
                 <concept>http://www.isocat.org/datcat/DC-2502</concept>
                 <concept>http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a</concept>
@@ -192,7 +192,7 @@
                 <concept>http://hdl.handle.net/11459/CCR_C-4374_dcfb9f02-a210-2b80-a181-509d4315cadc</concept>
                 <concept>http://hdl.handle.net/11459/CCR_C-2510_2402e609-046a-dfbf-c2d7-5a2f1ae6dc86</concept>
                 <concept>http://purl.org/dc/terms/issued</concept>
-                
+
                 <pattern>/*:CMD/*:Components/*:OLAC-DcmiTerms/*:coverage/text()</pattern>
             </temporalCoverage>
             <encodingFormat>
@@ -257,7 +257,7 @@
                     <expandPattern>/*:CMD/*:Components/*:SpeechCorpus-DLU/*:Creation/*:Creators/*:Creator</expandPattern>
                     <expandPattern>/*:CMD/*:Components/*:IDSAGD_Corpus/*:Collection/*:Creators/*:Creator</expandPattern>
                     <expandPattern>/*:CMD/*:Components/*:Framework/*:Creators/*:Creator</expandPattern>
-                    <expandPattern>/*:CMD/*:Components/*:BilingualDictionaryProfile-DLU/*:Creation/*:Creators/*:Creator</expandPattern>
+                    <expandPattern>/*:CMD/*:Components/*:BilingualDictionaryProfile-DLU/*:Creation/*:Creators/*:Creator/*:Contact/*:Person</expandPattern>
                     <expandPattern>/*:CMD/*:Components/*:DGDEvent/*:Staff</expandPattern>
                     <expandPattern>/*:CMD/*:Components/*:OLAC-DcmiTerms/*:contributor</expandPattern>
                     <expandPattern>/*:CMD/*:Components/*:OLAC-DcmiTerms-ref/*:contributor</expandPattern>
@@ -277,7 +277,7 @@
                         <pattern>./*:Person</pattern>
                         <pattern>./*:Owner</pattern>
                         <pattern>./*:Experimentor</pattern>
-                        <pattern>if(parent::*/local-name() = 'PublicationBibTex' or parent::*/local-name() = 'OLAC-DcmiTerms') then . else
+                        <pattern>if(parent::*/local-name() = 'PublicationBibTex' or ancestor::*/local-name() = 'BilingualDictionaryProfile-DLU' or parent::*/local-name() = 'OLAC-DcmiTerms') then . else
                             ()</pattern>
                         <pattern>./*:Contact/*:Person</pattern>
                         <pattern>./*:ResearcherParticipating</pattern>
@@ -366,7 +366,7 @@
                 <pattern>/*:CMD/*:Components/*:DcmiTerms/*:title</pattern>
                 <pattern>/*:CMD/*:Components/*:singlePaperPackage/*:paperPackage/*:mods/*:titleInfo/*:title</pattern>
             </name>
-            <description>  
+            <description>
                 <pattern>/*:CMD/*:Components/*:singlePaperPackage/*:paperPackage/*:mods/*:abstract</pattern>
             </description>
             <url>
